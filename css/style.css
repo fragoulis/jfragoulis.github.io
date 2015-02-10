@@ -1251,3 +1251,11 @@
 
 	ul.nav-menu {list-style: none; margin-top: 20px; font-size: 20px;}
 	ul.nav-menu li {}
+
+.tag {
+	background-color: #CCCCCC;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 1px 10px;
+}
