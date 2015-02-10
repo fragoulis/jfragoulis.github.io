@@ -107,7 +107,7 @@
 
 			// Lightbox gallery.
 				$('#projects').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
+					caption: function($a) { return $a.prev('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
@@ -121,6 +121,7 @@
 				});
 
 			$('#employment').poptrox({
+					caption: function($a) { return $a.prev('h3').text(); },
 					selector: '.work-item a',
 					windowMargin: (skel.isActive('small') ? 0 : 50)
 				});
