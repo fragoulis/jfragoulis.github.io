@@ -529,6 +529,9 @@
 		.image.left, .image.right {
 			max-width: 40%;
 		}
+		.image.smallthumb {
+			width: 190px;
+		}
 
 			.image.left img, .image.right img {
 				width: 100%;
@@ -914,7 +917,7 @@
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			/*margin: 0 0 1.5em 0;*/
 		}
 
 		.work-item h3 {
@@ -923,7 +926,7 @@
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			/*font-size: 0.8em;*/
 			line-height: 1.5em;
 			margin: 0;
 		}
