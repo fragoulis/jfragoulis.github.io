@@ -106,8 +106,8 @@
 		// Main Sections: Two.
 
 			// Lightbox gallery.
-				$('#two').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
+				$('#projects').poptrox({
+					caption: function($a) { return $a.prev('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
@@ -117,6 +117,12 @@
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
+					windowMargin: (skel.isActive('small') ? 0 : 50)
+				});
+
+			$('#employment').poptrox({
+					caption: function($a) { return $a.prev('h3').text(); },
+					selector: '.work-item a',
 					windowMargin: (skel.isActive('small') ? 0 : 50)
 				});
 
