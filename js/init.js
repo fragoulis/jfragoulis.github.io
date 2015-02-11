@@ -122,7 +122,7 @@
 
 			$('#employment').poptrox({
 					caption: function($a) { return $a.prev('h3').text(); },
-					selector: '.work-item a',
+					selector: '.work-item a[data-poptrox]',
 					windowMargin: (skel.isActive('small') ? 0 : 50)
 				});
 

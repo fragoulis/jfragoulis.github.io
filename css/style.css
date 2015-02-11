@@ -1250,7 +1250,7 @@
 	}
 
 	ul.nav-menu {list-style: none; margin-top: 20px; font-size: 20px;}
-	ul.nav-menu li {}
+	ul.nav-menu li a {color: #fff;}
 
 .tag {
 	background-color: #CCCCCC;
