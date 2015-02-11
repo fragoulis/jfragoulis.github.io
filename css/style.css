@@ -922,7 +922,7 @@
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			/*font-size: 1em;*/
 			margin: 0 0 0.5em 0;
 		}
 
@@ -936,11 +936,11 @@
 
 	#header {
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
+		background-attachment: scroll,                              fixed;
 		background-image: url("../images/overlay.jpg"), url("../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-position: top left,                          top left;
+		background-repeat: repeat,                              no-repeat;
+		background-size: auto,                              auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -1252,10 +1252,13 @@
 	ul.nav-menu {list-style: none; margin-top: 20px; font-size: 20px;}
 	ul.nav-menu li a {color: #fff;}
 
-.tag {
-	background-color: #CCCCCC;
-    border-radius: 7px;
-    color: #FFFFFF;
-    font-size: 15px;
-    padding: 1px 10px;
-}
+	.tag {
+		background-color: #CCCCCC;
+		border-radius: 7px;
+		color: #FFFFFF;
+		font-size: 15px;
+		padding: 1px 10px;
+		white-space: nowrap;
+	}
+
+	.subtitle em {float: right;}
