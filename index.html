@@ -110,7 +110,7 @@
 					<section id="projects">
 						<h2>Projects</h2>
 						<div class="row">
-							<article class="12u$ 12u$(xsmall) work-item">
+							<article id="projects-dissertation" class="12u$ 12u$(xsmall) work-item">
 								<h3>MSc Dissertation: Games that learn about their users and adapt</h3>
 								<p><a href="https://johnfragkoulis.files.wordpress.com/2010/09/disser.jpg" class="image thumb left"><img src="https://johnfragkoulis.files.wordpress.com/2010/09/disser.jpg?w=292&h=300" alt="" /></a>
 								The dissertation is about describing those techniques that can be used to develop a computer player that has the ability to adapt to its opponent and its environment in realtime, by learning about them. For this purpose, there has been a lot of research done, mostly academic, in fields such as expert systems, machine learning and others.</p>
@@ -121,7 +121,7 @@
 							</article>
 						</div>
 						<div class="row">
-							<article class="12u$ 12u$(xsmall) work-item">
+							<article id="projects-resurrection" class="12u$ 12u$(xsmall) work-item">
 								<h3>Resurrection</h3>
 								<p><a href="http://youtu.be/KdV2ulvqNGw" data-poptrox="youtube,800x600">Watch the trailer.</a></p>
 								<p>Resurrection is a 4-person project and basically a full fetched game. It is based on rough design spec written by a professional game designer. The main game consisted of a spaceship guided by the player from a top-down view that had to destroy enemy spaceships in order to collect just the right amount of energy to build an energy bomb and then fire that bomb at a crater.</p>
@@ -130,19 +130,18 @@
 							</article>
 						</div>
 						<div class="row">
-							<article class="12u$ 12u$(xsmall) work-item">
+							<article id="projects-physics" class="12u$ 12u$(xsmall) work-item">
 								<h3>Physics Simulation</h3>
 								<p><a href="http://youtu.be/MSuIGHds86E" data-poptrox="youtube,800x600">Watch the trailer.</a></p>
 								<p>This is a second semester project for the MSc. It is a physics simulation comprising of a deformable cloth object and rigid spheres. The user can interact with the surrounding cube by rotating it in two axis, add and remove spheres at any time and also record a try and replay it.</p>
 								<p>The physics are running a basic Euler integrator, with a very small time step though. The tessellation of the cloth is high, 20×30 vertices with one particle (point of mass) per vertex.</p>
 								<p>The collisions taking place are between <em>planes and particles</em> as well as between <em>particles and particles</em>. That being said, I must point out that all rigid bodies are treated as a single particle, while the cloth is, as expected, treated as multi-particle object. Hence a collision with the cloth is actually a collision between all its particles and the <em>other</em> object. No optimizations so far.</p>
-								<p>The whole thing is running in a single thread at the moment and it is VERY CPU consuming, but I intend to apply serious optimizations. Right now I am developing on an Intel T7500, so I have room to spare.</p>
 								<p>The system is designed as component-based, with lots of decoupling and great inter-component communication.</p>
 								<p>You can browse the code <a title="Google code repo" href="http://code.google.com/p/physicssim-sem2/source/browse#svn%2Ftrunk">here</a>.</p>
 							</article>
 						</div>
 						<div class="row">
-							<article class="12u$ 12u$(xsmall) work-item">
+							<article id="projects-spacegame" class="12u$ 12u$(xsmall) work-item">
 								<h3>Spacegame Simulation</h3>
 								<p><a href="http://youtu.be/KhtbUltT168" data-poptrox="youtube,800x600">Watch the trailer.</a></p>
 								<p>This game was developed during my first semester in the games programming msc and at the time was the first large scale game I had ever made.</p>
