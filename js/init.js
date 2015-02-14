@@ -106,25 +106,25 @@
 		// Main Sections: Two.
 
 			// Lightbox gallery.
-				$('#projects').poptrox({
-					caption: function($a) { return $a.prev('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (skel.isActive('small') ? 0 : 50)
-				});
+			$('#projects').poptrox({
+				caption: function($a) { return $a.prev('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (skel.isActive('small') ? 0 : 50)
+			});
 
-			$('#employment').poptrox({
-					caption: function($a) { return $a.prev('h3').text(); },
-					selector: '.work-item a[data-poptrox]',
-					windowMargin: (skel.isActive('small') ? 0 : 50)
-				});
+			$('#employment, #projects').poptrox({
+				caption: function($a) { return $a.prev('h3').text(); },
+				selector: '.work-item a[data-poptrox]',
+				windowMargin: (skel.isActive('small') ? 0 : 50)
+			});
 
 	});
 
