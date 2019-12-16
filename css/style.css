@@ -1262,3 +1262,10 @@
 	}
 
 	.subtitle em {float: right;}
+
+	.work-item .skroutz {
+		font-size: 0;
+    height: 72px;
+    background: url(https://a.scdn.gr/assets/schwartz/el/logo-el-00055ba35c66e24ee9fcd5ea2b2dfbc5.svg) no-repeat 0 0/100%;
+    margin-right: 10px;
+	}
